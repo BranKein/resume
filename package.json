@@ -2,20 +2,17 @@
   "name": "brankein-resume",
   "lastestUpdatedAt": "2021-01-20",
   "version": "1.0.4",
-  "description": "Static HTML based RESUME made with next.js",
+  "description": "Resume for Yeonhyuk Kim",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env DEBUG=yosume:* next",
-    "build": "next build",
-    "prebuild": "npm install",
-    "start": "next start",
-    "export:with-typedoc": "npm run export && npm run typedoc",
-    "export": "cross-env NODE_ENV=production next export --outdir docs/",
-    "preexport": "npm run clean && npm run build",
-    "postexport": "node shellwork.js",
-    "clean": "npx rimraf docs .next",
-    "typedoc": "typedoc --excludeExternals"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cname": "echo recruit.brankein-personal-aws.net > build\\CNAME",
+    "nojekyll": "echo > build\\.nojekyll",
+    "predeploy": "npm run build && npm run cname && npm run nojekyll",
+    "deploy": "gh-pages --dotfiles -d build"
   },
   "homepage": "http://resume.brankein.me",
   "repository": {
@@ -36,8 +33,8 @@
     "url": "https://github.com/uyu423/resume-nextjs/issues"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.31",
-    "@fortawesome/free-brands-svg-icons": "^5.15.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-regular-svg-icons": "^5.15.0",
     "@fortawesome/free-solid-svg-icons": "^5.15.0",
     "@fortawesome/react-fontawesome": "^0.1.12",
@@ -52,6 +49,7 @@
     "next-seo": "^4.15.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
     "reactstrap": "^8.7.1",
     "shelljs": "^0.8.4",
     "styled-components": "^5.2.0"
@@ -67,19 +65,11 @@
     "@typescript-eslint/parser": "^2.34.0",
     "cpy-cli": "^3.1.1",
     "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-airbnb-typescript": "^7.2.1",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.21.3",
-    "eslint-plugin-react-hooks": "^2.5.1",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "typedoc": "^0.19.2",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "gh-pages": "^2.2.0"
   },
   "resolutions": {
     "**/minimist": "^1.2.3"
