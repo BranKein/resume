@@ -33,6 +33,10 @@ const database: ISkill.Skill = {
       title: 'MySQL',
       level: 2,
     },
+    {
+      title: 'SQLite(Android)',
+      level: 1
+    }
   ],
 };
 
@@ -82,7 +86,15 @@ const ai: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Tensorflow Lite',
+      title: 'Python(pandas)',
+      level: 2,
+    },
+    {
+      title: 'Python(numpy)',
+      level: 2,
+    },
+    {
+      title: 'Python(matplotlib)',
       level: 2,
     },
     {
@@ -91,6 +103,10 @@ const ai: ISkill.Skill = {
     },
     {
       title: 'Tensorflow v1.x',
+      level: 1,
+    },
+    {
+      title: 'Tensorflow Lite',
       level: 1,
     },
   ],
@@ -104,6 +120,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Jupyter Notebook',
+    },
+    {
+      title: 'DataGrip',
     },
     {
       title: 'Photoshop',
