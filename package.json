@@ -1,6 +1,6 @@
 {
-  "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-11-08",
+  "name": "brankein-resume",
+  "lastestUpdatedAt": "2021-01-20",
   "version": "1.0.4",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -8,29 +8,27 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env DEBUG=yosume:* next",
     "build": "next build",
-    "prebuild": "npm install && npm run lint",
+    "prebuild": "npm install",
     "start": "next start",
     "export:with-typedoc": "npm run export && npm run typedoc",
     "export": "cross-env NODE_ENV=production next export --outdir docs/",
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "http://resume.brankein.me",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/BranKein/resume-nextjs.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "Yeonhyuk Kim",
+    "email": "brankein13@gm.gist.ac.kr"
   },
   "contributors": [],
   "license": "MIT",

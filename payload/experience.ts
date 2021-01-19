@@ -4,27 +4,13 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
-      title: 'Foo Company',
-      position: 'Node.js Developer',
-      startedAt: '2018-02',
+      title: '재능넷',
+      position: 'Program Developer',
+      startedAt: '2020-03',
       descriptions: [
-        'OTA Service Provider',
-        'Data modeling and Mashup API development',
-        'Systems Engineering and DevOps',
+        '각종 프로그래밍 외주 작업',
       ],
-      skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
-    },
-    {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Enginner',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      descriptions: [
-        'Online Commerce IT Startup',
-        'Development of reservation system and service worker',
-        'AWS infrastructure and RDBMS maintenance and development',
-      ],
-      skillKeywords: ['Node.js', 'MySQL', 'AWS'],
+      skillKeywords: ['C', 'C++', 'Java', 'Python', 'Android Studio', 'Algorithm', 'Javascript'],
     },
   ],
 };

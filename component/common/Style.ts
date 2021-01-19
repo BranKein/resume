@@ -13,11 +13,11 @@ type TStyleKey =
 
 export const Style: Record<TStyleKey, CSSProperties> = {
   blue: {
-    color: '#3c78d8',
+    color: '#d892d7',
   },
 
   gray: {
-    color: 'gray',
+    color: '#6d6d6d',
   },
 
   global: {
@@ -25,7 +25,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
     fontWeight: 300,
     wordWrap: 'break-word',
     wordBreak: 'keep-all',
-    lineHeight: 1.8,
+    lineHeight: 1.5,
   },
 
   sign: {

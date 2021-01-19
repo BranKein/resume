@@ -1,26 +1,24 @@
 import { DateTime } from 'luxon';
 import { PropsWithChildren } from 'react';
-import { IProject } from './IProject';
 import { CommonRows } from '../common/CommonRow';
 import { IRow } from '../common/IRow';
 import Util from '../common/Util';
 import { EmptyRowCol } from '../common';
+import { IEducation } from './IEducation';
 
-export default function ProjectRow({ payload }: PropsWithChildren<{ payload: IProject.Payload }>) {
+export default function EducationRow({
+                                          payload,
+                                        }: PropsWithChildren<{ payload: IEducation.Payload }>) {
   return (
     <EmptyRowCol>
       {payload.list.map((item, index) => {
-        return (
-          <div>
-            <CommonRows key={index.toString()} payload={serialize(item)} index={index} />
-          </div>
-        )
+        return <CommonRows key={index.toString()} payload={serialize(item)} index={index} />;
       })}
     </EmptyRowCol>
   );
 }
 
-function serialize(payload: IProject.Item): IRow.Payload {
+function serialize(payload: IEducation.Item): IRow.Payload {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
   const startedAt = DateTime.fromFormat(payload.startedAt, DATE_FORMAT.YYYY_LL).toFormat(
     DATE_FORMAT.YYYY_DOT_LL,
@@ -41,9 +39,8 @@ function serialize(payload: IProject.Item): IRow.Payload {
     },
     right: {
       title: payload.title,
-      subTitle: payload.where,
+      subTitle: payload.subTitle,
       descriptions: payload.descriptions,
-      skillKeywords: payload.skillKeywords,
     },
   };
 }
