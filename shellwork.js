@@ -33,15 +33,15 @@ function judgeCnameCreation() {
     ),
   );
 
-  shelljs.echo(url.hostname).to(path.join(__dirname, 'docs/CNAME'));
+  shelljs.echo(url.hostname).to(path.join(__dirname, 'out/CNAME'));
 }
 
 /**
  * * create docs/.nojekyll empty file
  */
 function createNojekyll() {
-  shelljs.touch(path.join(__dirname, 'docs/.nojekyll'));
-  console.log(chalk.yellow('shellwork: create docs/.nojekyll done.'));
+  shelljs.touch(path.join(__dirname, 'out/.nojekyll'));
+  console.log(chalk.yellow('shellwork: create out/.nojekyll done.'));
 }
 
 createNojekyll();

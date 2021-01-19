@@ -8,17 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env DEBUG=yosume:* next",
     "build": "next build",
-    "prebuild": "npm install",
     "start": "next start",
+    "export": "cross-env NODE_ENV=production next export",
     "export:with-typedoc": "npm run export && npm run typedoc",
-    "export": "cross-env NODE_ENV=production next export --outdir docs/",
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
     "typedoc": "typedoc --excludeExternals",
     "predeploy": "npm run build && npm run cname && npm run nojekyll",
-    "cname": "echo recruit.brankein.me > docs\\CNAME",
-    "nojekyll": "echo > docs\\.nojekyll",
+    "nojekyll": "echo > build\\.nojekyll",
     "deploy": "gh-pages --dotfiles -d build"
   },
   "homepage": "http://resume.brankein.me",
@@ -59,7 +57,8 @@
     "react-scripts": "^4.0.1",
     "reactstrap": "^8.7.1",
     "shelljs": "^0.8.4",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "touch": "^3.1.0"
   },
   "devDependencies": {
     "@types/luxon": "^1.25.0",
@@ -72,11 +71,11 @@
     "@typescript-eslint/parser": "^2.34.0",
     "cpy-cli": "^3.1.1",
     "cross-env": "^7.0.2",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "typedoc": "^0.19.2",
-    "typescript": "^4.0.5",
-    "gh-pages": "^2.2.0"
+    "typescript": "^4.0.5"
   },
   "resolutions": {
     "**/minimist": "^1.2.3"
