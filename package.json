@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env DEBUG=yosume:* next",
     "build": "next build",
-    "prebuild": "npm install",
     "start": "next start",
     "export": "cross-env NODE_ENV=production next export --outdir docs/",
     "export:with-typedoc": "npm run export && npm run typedoc",
