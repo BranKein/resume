@@ -6,13 +6,12 @@ const project: IProject.Payload = {
     {
       title: '반하다 서비스',
       startedAt: '2021-01',
-      endedAt: '2021-03',
-      where: 'Oasis hackathon team 3N, Back-end 작업',
+      endedAt: '2021-01',
+      where: 'Oasis hackathon team 3N, Full-Stack',
       descriptions: [
         { content: '기존의 "당근마켓" 어플의 서비스 범위를 동 단위가 아니라 "아파트 단위"로 좁히고 거래 대상을 "신선식품과 배달식품"으로 하여 새로운 타겟을 설정하고 "주민들간의 좋은 관계 형성" 및 "음식물 쓰레기 배출량 감소"를 목표로 한 거래 플랫폼 개발' },
-        { content: 'Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor' },
-        { content: 'Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien' },
-        { content: 'Proin bibendum non nibh eu aliquet' },
+        { content: 'Flask를 사용하여 RESTful API 제작 후 Java의 OkHttp3를 사용하여 통신하도록 개발' },
+        { content: 'Xd 디자인 툴을 사용하여 디자이너와 프로그래머와의 효율적인 업무를 진행' },
       ],
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Android Studio', 'OkHttp'],
     },
@@ -43,7 +42,7 @@ const project: IProject.Payload = {
       title: 'MJM Service',
       startedAt: '2019-06',
       endedAt: '2020-02',
-      where: '인천진산과학고등학교 자율동아리 팀 프로젝트',
+      where: '인천진산과학고등학교 자율동아리 팀 프로젝트, Full-Stack',
       descriptions: [
         { content: '인천광역시 교육청 주관 특성화 고등학교 대상 융합학술연구 컨퍼런스를 위해 진행한 프로젝트' },
         { content: '사용자의 나이, 성별, 비행 시간에 따라 달라질 수 있는 인천공항 내 캡슐호텔에서의 최적의 수면 환경을 인공지능이 학습하고 추천해주는 서비스'},

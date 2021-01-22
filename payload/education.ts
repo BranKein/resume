@@ -13,7 +13,7 @@ const education: IEducation.Payload = {
           content: '학생회 산하 특별자치회 GSA Infoteam 회장 (2학년)',
         },
         {
-          content: '전산동아리 Wing App 분과장 (2학년)',
+          content: '전산동아리 Wing Application 분과장 (2학년)',
         },
       ],
     },
@@ -27,7 +27,7 @@ const education: IEducation.Payload = {
           content: '전산동아리 JS++ 부회장 (2학년)',
         },
         {
-          content: '자율동아리 아두플로 부회장 (2학년)',
+          content: '자율동아리 ArduFlow 부회장 (2학년)',
         },
       ],
     },

@@ -10,11 +10,12 @@ const presentation: IPresentation.Payload = {
       at: '2021-01-13',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: '발표 영상',
+          postHref: 'https://www.youtube.com/watch?v=4bsaYf-gZa8&ab_channel=%EC%9D%B4%EC%A4%80%EB%AA%85'
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: '발표 자료',
+          postHref: 'https://github.com/Slime0519/Wing-2021-AI-Winter-PR/blob/main/Week%202/Yeonhyuk%20Kim%20-%20Overfeat.pdf',
         },
       ],
     },
@@ -24,11 +25,11 @@ const presentation: IPresentation.Payload = {
       at: '2021-01-20',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: '발표 영상',
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: '발표 자료',
+          postHref: 'https://github.com/Slime0519/Wing-2021-AI-Winter-PR/blob/main/Week%203/Yeonhyuk%20Kim%20-%20ResNet.pdf',
         },
       ],
     },
