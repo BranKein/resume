@@ -11,7 +11,7 @@ const presentation: IPresentation.Payload = {
       descriptions: [
         {
           content: '발표 영상',
-          postHref: 'https://www.youtube.com/watch?v=4bsaYf-gZa8&ab_channel=%EC%9D%B4%EC%A4%80%EB%AA%85'
+          postHref: 'https://youtu.be/4bsaYf-gZa8'
         },
         {
           content: '발표 자료',
@@ -26,6 +26,7 @@ const presentation: IPresentation.Payload = {
       descriptions: [
         {
           content: '발표 영상',
+          postHref: 'https://youtu.be/-azYn2P2nnQ'
         },
         {
           content: '발표 자료',
