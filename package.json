@@ -19,7 +19,7 @@
     "nojekyll": "echo > build\\.nojekyll",
     "deploy": "gh-pages --dotfiles -d build"
   },
-  "homepage": "http://resume.yeonhyuk.me",
+  "homepage": "https://resume.yeonhyuk.me",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BranKein/resume-nextjs.git"
