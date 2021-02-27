@@ -5,7 +5,7 @@ const { homepage } = require('./package.json');
 const { NODE_ENV } = process.env;
 
 module.exports = withImages({
-  assetPrefix: NODE_ENV === 'production' ? 'http://resume.yeonhyuk.me' : ''
+  assetPrefix: NODE_ENV === 'production' ? 'https://resume.yeonhyuk.me' : ''
 });
 // withCSS({
 // webpack: config => {
