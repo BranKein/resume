@@ -9,6 +9,10 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'Amazon Web Services',
+      level: 3,
+    },
+    {
+      title: 'Nginx',
       level: 2,
     },
     {
@@ -16,11 +20,11 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'C#(Unity)',
-      level: 1,
+      title: 'C/C++',
+      level: 2,
     },
     {
-      title: 'C/C++',
+      title: 'C#(Unity)',
       level: 1,
     },
   ],
@@ -48,19 +52,31 @@ const frontend: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Javascript',
+      level: 2,
+    },
+    {
+      title: 'HTML',
+      level: 2,
+    },
+    {
       title: 'Java(Swing)',
       level: 2,
     },
     {
-      title: 'Javascript',
-      level: 1,
-    },
-    {
-      title: 'HTML',
-      level: 1,
-    },
-    {
       title: 'React.js',
+      level: 1,
+    },
+    {
+      title: 'Next.js',
+      level: 1,
+    },
+    {
+      title: 'D3.js',
+      level: 1,
+    },
+    {
+      title: 'PIXI.js',
       level: 1,
     },
     {

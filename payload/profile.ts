@@ -19,7 +19,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: 'Web에 공개되어 있는 이력서에는 전화번호를 기재하지 않았습니다. 메일로 연락 부탁드립니다.',
       icon: faPhone,
       badge: true,
     },
@@ -30,7 +30,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Github blog',
-      link: 'https://brankein.github.io',
+      link: 'https://blog.yeonhyuk.me',
       icon: faGithub,
     },
   ],

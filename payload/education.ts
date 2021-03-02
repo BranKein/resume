@@ -6,7 +6,7 @@ const education: IEducation.Payload = {
   list: [
     {
       title: '광주과학기술원 (GIST)',
-      subTitle: '전기전자컴퓨터공학부 학사과정 재학',
+      subTitle: '전기전자컴퓨터공학부 학사과정 재학중',
       startedAt: '2020-03',
       descriptions: [
         {
