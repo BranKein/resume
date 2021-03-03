@@ -5,7 +5,7 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    '인공지능부터 백엔드, 안드로이드 앱 개발까지 가능한 다재다능 풀스택 개발자입니다.',
+    '인공지능부터 백엔드, 프론트엔드, 안드로이드 앱 개발까지 가능한 다재다능 풀스택 개발자입니다.',
     '- Android 개발, Flask를 이용한 웹 서버 개발을 주로 하고 있습니다.',
     '- Git 사용 경험(Task별 branch 분기를 통한 프로젝트 관리)',
     '- Android Studio, Java 사용 경험',
