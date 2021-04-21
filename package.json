@@ -10,14 +10,9 @@
     "build": "next build",
     "start": "next start",
     "export": "cross-env NODE_ENV=production next export --outdir docs/",
-    "export:with-typedoc": "npm run export && npm run typedoc",
     "preexport": "npm run clean && npm run build",
-    "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "typedoc": "typedoc --excludeExternals",
-    "predeploy": "npm run build && npm run cname && npm run nojekyll",
-    "nojekyll": "echo > build\\.nojekyll",
-    "deploy": "gh-pages --dotfiles -d build -b deployment"
+    "deploy": "gh-pages --dotfiles -d docs -b deployment"
   },
   "homepage": "https://resume.yeonhyuk.me",
   "repository": {
