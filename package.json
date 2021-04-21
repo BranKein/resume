@@ -1,5 +1,5 @@
 {
-  "name": "brankein-resume",
+  "name": "yeonhyuk-resume",
   "lastestUpdatedAt": "2021-03-02",
   "version": "1.0.4",
   "description": "Resume for Yeonhyuk Kim",
@@ -17,7 +17,7 @@
     "typedoc": "typedoc --excludeExternals",
     "predeploy": "npm run build && npm run cname && npm run nojekyll",
     "nojekyll": "echo > build\\.nojekyll",
-    "deploy": "gh-pages --dotfiles -d build"
+    "deploy": "gh-pages --dotfiles -d build -b deployment"
   },
   "homepage": "https://resume.yeonhyuk.me",
   "repository": {
