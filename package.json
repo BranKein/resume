@@ -14,11 +14,6 @@
     "clean": "npx rimraf docs .next",
     "deploy": "gh-pages --dotfiles -d docs -b deployment"
   },
-  "homepage": "https://resume.yeonhyuk.me",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BranKein/resume-nextjs.git"
-  },
   "keywords": [
     "resume",
     "next"
