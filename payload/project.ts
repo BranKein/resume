@@ -27,8 +27,9 @@ const project: IProject.Payload = {
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Nginx'],
     },
     {
-      title: 'GSA Infoteam Recruiting Management System',
+      title: 'GIST AMS, PMS',
       startedAt: '2021-01',
+      endedAt: '2021-03',
       where: 'GSA Infoteam 내 구성원 1인과의 프로젝트, Full-Stack',
       descriptions: [
         { content: '학교 내 모든 자치회, 동아리들이 사용할 수 있도록 개발한 신입 부원 모집 시스템' },
@@ -38,6 +39,29 @@ const project: IProject.Payload = {
         { content: 'recruiting 페이지를 자치회 또는 동아리가 customizing 할 수 있도록 제작' },
       ],
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Nginx', 'Android Studio', 'OkHttp3', 'Http', 'Javascript', 'AJAX', 'React.js'],
+    },
+    {
+      title: 'Challengers Clone Coding',
+      startedAt: '2021-03',
+      where: '지인들과의 사이드 프로젝트, (진행중), Full-Stack',
+      descriptions: [
+        { content: '기존의 어플 "챌린저스"를 Flask, React.js, React Native를 사용하여 동일한 기능을 하도록 만들어보며 새로운 기술을 공부해보자는 취지로 시작' },
+        { content: '나의 경우 AWS를 사용하여 서버를 구축, 백엔드와 프론트 엔드 개발을 모두 진행' },
+        { content: 'RESTful API 개발을 위한 API Documentation 제작' },
+      ],
+      skillKeywords: ['Python', 'Flask', 'MySQL', 'AWS', 'Nginx', 'React.js'],
+    },
+    {
+      title: 'Github Contributes Plotting',
+      startedAt: '2021-05',
+      endedAt: '2021-05',
+      where: '혼자 간단한 사이드 프로젝트, Full-Stack',
+      descriptions: [
+        { content: 'Github Profile 페이지의 Contributes Graph를 잔디의 형태가 아니라 꺾은선 그래프로 보고 싶은 마음에 간단히 제작' },
+        { content: 'Flask로 백엔드를 제작, Github 아이디를 입력하면 해당 프로필에 들어가 BeautifulSoup4를 사용하여 Contributes Graph를 크롤링해서 데이터를 가져오는 방식' },
+        { content: '크롤링된 데이터는 ajax를 통해 프론트엔드로 전달, Plotty.js를 사용하여 그래프 생성 및 애니매이션' },
+      ],
+      skillKeywords: ['Python', 'Flask', 'BeautifulSoup4', 'HTML', 'Javascript', 'AJAX', 'Plotty.js'],
     },
     {
       title: 'MJM Service',
@@ -53,10 +77,6 @@ const project: IProject.Payload = {
           content: 'Github Link',
           postHref: 'https://github.com/BranKein/MJM_And'
         },
-        {
-          content: '자세한 설명',
-          postHref: 'https://brankein.github.io/2020-02-10-mjm/'
-        }
       ],
       skillKeywords: ['Android Studio', 'Tensorflow', 'Tensorflow Lite'],
     },
@@ -86,7 +106,7 @@ const project: IProject.Payload = {
           ]
         }
       ],
-      skillKeywords: ['simulator', 'Unity', 'C#', '3Ds max'],
+      skillKeywords: ['Simulator', 'Unity', 'C#', '3Ds max'],
     },
   ],
 };

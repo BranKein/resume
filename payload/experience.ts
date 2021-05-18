@@ -7,6 +7,7 @@ const experience: IExperience.Payload = {
       title: '재능넷',
       position: 'Program Developer',
       startedAt: '2020-03',
+      endedAt: '2021-03',
       descriptions: [
         '각종 프로그래밍 외주 작업',
       ],

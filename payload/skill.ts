@@ -35,7 +35,7 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 2,
+      level: 3,
     },
     {
       title: 'SQLite(Android)',
@@ -52,6 +52,10 @@ const frontend: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'React.js',
+      level: 2,
+    },
+    {
       title: 'Javascript',
       level: 2,
     },
@@ -62,10 +66,6 @@ const frontend: ISkill.Skill = {
     {
       title: 'Java(Swing)',
       level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 1,
     },
     {
       title: 'Next.js',
@@ -111,7 +111,7 @@ const ai: ISkill.Skill = {
     },
     {
       title: 'Python(matplotlib)',
-      level: 2,
+      level: 1,
     },
     {
       title: 'Keras(RNN)',

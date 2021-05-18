@@ -10,7 +10,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '김연혁',
-    small: '(프노)',
+    small: '(Yeonhyuk Kim)',
   },
   contact: [
     {
@@ -19,18 +19,13 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Web에 공개되어 있는 이력서에는 전화번호를 기재하지 않았습니다. 메일로 연락 부탁드립니다.',
+      title: '010-4048-6712',
       icon: faPhone,
       badge: true,
     },
     {
       title: 'Github',
       link: 'https://github.com/BranKein',
-      icon: faGithub,
-    },
-    {
-      title: 'Github blog',
-      link: 'https://blog.yeonhyuk.me',
       icon: faGithub,
     },
   ],

@@ -1,6 +1,6 @@
 {
   "name": "yeonhyuk-resume",
-  "lastestUpdatedAt": "2021-03-02",
+  "lastestUpdatedAt": "2021-05-19",
   "version": "1.0.4",
   "description": "Resume for Yeonhyuk Kim",
   "main": "index.js",
@@ -14,6 +14,7 @@
     "clean": "npx rimraf docs .next",
     "deploy": "gh-pages --dotfiles -d docs -b deployment"
   },
+  "homepage": "https://github.com/BranKein",
   "keywords": [
     "resume",
     "next"
