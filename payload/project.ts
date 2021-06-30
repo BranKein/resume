@@ -4,10 +4,35 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'Calmmuter',
+      startedAt: '2021-05',
+      endedAt: '2021-05',
+      where: 'JunctionX Seoul 2021 팀 Caffeine',
+      descriptions: [
+        { content: 'Autocrypt 트랙의 주제 Barrier-Free Mobility Service' },
+        { content: '택시에 탑승하는 임산부 또는 안좋은 운전 습관에 의해 불편함을 느낄 수 ' +
+            '있는 모든 탑승자를 교통약자라고 정의하고 이들을 위한 서비스를 개발' },
+        { content: '백엔드 포지션으로 참여하였지만 데모 프로그램을 개발할 때에는 프론트엔드로 참여하여 React.js로만 개발' },
+        { content: '도메인 구입하여 데모 프로그램을 서버에 nginx 사용하여 serving'},
+        {
+          content: 'Demo Link',
+          postHref: 'https://www.junctionx-caffeine.com'
+        },
+        {
+          content: '프레젠테이션',
+        },
+        {
+          content: 'Github Link',
+          postHref: 'https://github.com/JunctionX-Seoul-Caffeine/Calmmuter.git'
+        },
+      ],
+      skillKeywords: ['Nginx', 'React.js', 'HTML', 'CSS'],
+    },
+    {
       title: '반하다 서비스',
       startedAt: '2021-01',
       endedAt: '2021-01',
-      where: 'Oasis hackathon team 3N, Full-Stack',
+      where: 'Oasis Hackathon 2021 팀 3N, Full-Stack',
       descriptions: [
         { content: '기존의 "당근마켓" 어플의 서비스 범위를 동 단위가 아니라 "아파트 단위"로 좁히고 거래 대상을 "신선식품과 배달식품"으로 하여 새로운 타겟을 설정하고 "주민들간의 좋은 관계 형성" 및 "음식물 쓰레기 배출량 감소"를 목표로 한 거래 플랫폼 개발' },
         { content: 'Flask를 사용하여 RESTful API 제작 후 Java의 OkHttp3를 사용하여 통신하도록 개발' },
@@ -16,15 +41,16 @@ const project: IProject.Payload = {
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Android Studio', 'OkHttp3'],
     },
     {
-      title: 'GSA Infoteam GISTORY 페이지',
+      title: 'GSA Infoteam GISTORY 커뮤니티',
       startedAt: '2020-07',
-      where: '학생회 산하 특별자치회 GSA Infoteam 공동작업, Back-end 작업',
+      where: 'GIST 학생자치회 GSA Infoteam 공동작업, Back-end 작업, 약간의 React 작업',
       descriptions: [
         { content: '광주과학기술원 구성원이 사용할 수 있는 공개 커뮤니티' },
-        { content: '보통의 커뮤니티와 같이 게시물 작성, 수정, 삭제가 가능하도록 개발' },
+        { content: '보통의 커뮤니티 기능인 게시물 작성, 수정, 삭제가 가능하도록 개발' },
         { content: '교내 학사일정을 크롤링하여 메인 화면에 띄우도록 api 제작' },
+        { content: 'RBAC 권한체계를 사용하여 공지글 작성 권한 등을 관리 및 관리자 콘솔 페이지 작성'},
       ],
-      skillKeywords: ['Python', 'Flask', 'MySQL', 'Nginx'],
+      skillKeywords: ['Python', 'Flask', 'MySQL', 'Nginx', 'React.js', 'Redux'],
     },
     {
       title: 'GIST AMS, PMS',
@@ -38,7 +64,7 @@ const project: IProject.Payload = {
         { content: '각 자치회 또는 동아리 관리자가 지원자를 관리하고 일괄적으로 문자를 전송할 수 있는 서비스를 제공하는 페이지 개선 및 기능 추가'},
         { content: 'recruiting 페이지를 자치회 또는 동아리가 customizing 할 수 있도록 제작' },
       ],
-      skillKeywords: ['Python', 'Flask', 'MySQL', 'Nginx', 'Android Studio', 'OkHttp3', 'Http', 'Javascript', 'AJAX', 'React.js'],
+      skillKeywords: ['Python', 'Flask', 'MySQL', 'Android Studio', 'OkHttp3', 'Javascript', 'React.js'],
     },
     {
       title: 'Challengers Clone Coding',
@@ -46,8 +72,9 @@ const project: IProject.Payload = {
       where: '지인들과의 사이드 프로젝트, (진행중), Full-Stack',
       descriptions: [
         { content: '기존의 어플 "챌린저스"를 Flask, React.js, React Native를 사용하여 동일한 기능을 하도록 만들어보며 새로운 기술을 공부해보자는 취지로 시작' },
-        { content: '나의 경우 AWS를 사용하여 서버를 구축, 백엔드와 프론트 엔드 개발을 모두 진행' },
-        { content: 'RESTful API 개발을 위한 API Documentation 제작' },
+        { content: 'AWS를 사용하여 서버를 구축, 백엔드와 프론트 엔드 개발을 모두 진행' },
+        { content: 'REST API 개발을 위한 API Documentation 제작' },
+        { content: 'OAuth2.0을 이용한 소셜 로그인 기능 구현'}
       ],
       skillKeywords: ['Python', 'Flask', 'MySQL', 'AWS', 'Nginx', 'React.js'],
     },
@@ -60,6 +87,14 @@ const project: IProject.Payload = {
         { content: 'Github Profile 페이지의 Contributes Graph를 잔디의 형태가 아니라 꺾은선 그래프로 보고 싶은 마음에 간단히 제작' },
         { content: 'Flask로 백엔드를 제작, Github 아이디를 입력하면 해당 프로필에 들어가 BeautifulSoup4를 사용하여 Contributes Graph를 크롤링해서 데이터를 가져오는 방식' },
         { content: '크롤링된 데이터는 ajax를 통해 프론트엔드로 전달, Plotty.js를 사용하여 그래프 생성 및 애니매이션' },
+        {
+          content: 'Link',
+          postHref: 'https://gh-contribute-plot.yeonhyuk.me/'
+        },
+        {
+          content: 'Github Link',
+          postHref: 'https://github.com/BranKein/Github_Contributes_Plotting.git'
+        }
       ],
       skillKeywords: ['Python', 'Flask', 'BeautifulSoup4', 'HTML', 'Javascript', 'AJAX', 'Plotty.js'],
     },

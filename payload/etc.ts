@@ -5,6 +5,11 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'JunctionX Seoul 2021',
+      subTitle: 'Autocrypt 트랙 2등',
+      startedAt: '2021-05',
+    },
+    {
       title: '2020 DREAM_AI Drone Competition',
       subTitle: 'Completion',
       startedAt: '2020-11',

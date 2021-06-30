@@ -1,27 +1,65 @@
 import { ISkill } from '../component/skill/ISkill';
 
+const language: ISkill.Skill = {
+  category: 'Language',
+  items: [
+    {
+      title: 'Python',
+      level: 3,
+    },
+    {
+      title: 'Java',
+      level: 3,
+    },
+    {
+      title: 'Javascript',
+      level: 2,
+    },
+    {
+      title: 'HTML',
+      level: 2,
+    },
+    {
+      title: 'CSS',
+      level: 2,
+    },
+    {
+      title: 'C',
+      level: 2,
+    },
+    {
+      title: 'C++',
+      level: 2,
+    },
+    {
+      title: 'C#',
+      level: 1,
+    },
+  ]
+}
+
 const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Python(Flask)',
+      title: 'Flask',
       level: 3,
     },
     {
       title: 'Amazon Web Services',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Nginx',
       level: 2,
     },
     {
-      title: 'Python(Selenium)',
+      title: 'C/C++',
       level: 2,
     },
     {
-      title: 'C/C++',
-      level: 2,
+      title: 'Python(Selenium)',
+      level: 1,
     },
     {
       title: 'C#(Unity)',
@@ -38,34 +76,60 @@ const database: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Redis',
+      level: 2,
+    },
+    {
       title: 'SQLite(Android)',
       level: 1
     }
   ],
 };
 
+const etc: ISkill.Skill = {
+  category: 'ETC',
+  items: [
+    {
+      title: 'Selenium',
+    },
+    {
+      title: 'BeautifulSoup',
+    },
+    {
+      title: 'WordCloud',
+    },
+    {
+      title: 'Unity(C#)',
+    },
+  ]
+}
+
 const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Android Studio(Java)',
+      title: 'React.js, Redux',
       level: 3,
     },
     {
-      title: 'React.js',
-      level: 2,
+      title: 'Native Android(Java)',
+      level: 3,
     },
     {
       title: 'Javascript',
       level: 2,
     },
     {
-      title: 'HTML',
+      title: 'HTML, CSS',
       level: 2,
     },
     {
-      title: 'Java(Swing)',
-      level: 2,
+      title: 'React Native',
+      level: 1,
+    },
+    {
+      title: 'Swing',
+      level: 1,
     },
     {
       title: 'Next.js',
@@ -90,35 +154,19 @@ const ai: ISkill.Skill = {
   category: 'AI',
   items: [
     {
-      title: 'Keras(DNN)',
+      title: 'Keras(DNN, CNN, RNN)',
       level: 3,
     },
     {
-      title: 'Keras(CNN)',
-      level: 3,
-    },
-    {
-      title: 'Tensorflow v2.x',
+      title: 'Tensorflow (v2.x, v1.x)',
       level: 2,
     },
     {
-      title: 'Python(pandas)',
+      title: 'Pandas, Numpy',
       level: 2,
     },
     {
-      title: 'Python(numpy)',
-      level: 2,
-    },
-    {
-      title: 'Python(matplotlib)',
-      level: 1,
-    },
-    {
-      title: 'Keras(RNN)',
-      level: 1,
-    },
-    {
-      title: 'Tensorflow v1.x',
+      title: 'Matplotlib',
       level: 1,
     },
     {
@@ -128,43 +176,64 @@ const ai: ISkill.Skill = {
   ],
 };
 
-const etc: ISkill.Skill = {
-  category: 'Etc',
+const ide: ISkill.Skill = {
+  category: 'IDE, Tools',
   items: [
     {
-      title: 'Ubuntu',
+      title: 'Pycharm Professional',
     },
     {
-      title: 'Jupyter Notebook',
+      title: 'Webstorm',
     },
     {
       title: 'DataGrip',
     },
     {
+      title: 'IntelliJ IDEA Ultimate',
+    },
+    {
+      title: 'Android Studio',
+    },
+    {
+      title: 'CLion',
+    },
+    {
+      title: 'Jupyter Notebook',
+    },
+    {
+      title: 'Gitkraken',
+    },
+    {
+      title: 'Slack',
+    },
+    {
+      title: 'Notion',
+    },
+  ]
+};
+
+const design: ISkill.Skill = {
+  category: 'Design Tools',
+  items: [
+    {
       title: 'Photoshop',
     },
     {
-      title: 'Illustrator',
+      title: 'Adobe XD',
     },
     {
-      title: 'Xd',
+      title: '3Ds MAX',
     },
     {
       title: 'Vegas Pro',
     },
-    {
-      title: 'Premiere Pro',
-    },
-    {
-      title: '3Ds max',
-    },
-  ],
-};
+  ]
+}
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, ai, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [language, backend, database, frontend, ai, etc, ide, design],
+  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: 자신있게 개발 가능한 수준',
 };
 
 export default skill;

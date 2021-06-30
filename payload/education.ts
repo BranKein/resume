@@ -10,7 +10,13 @@ const education: IEducation.Payload = {
       startedAt: '2020-03',
       descriptions: [
         {
+          content: '자료구조, 객체지향, 컴퓨터 네트워크 과목을 수강했습니다.',
+        },
+        {
           content: '학생회 산하 특별자치회 GSA Infoteam 회장 (2학년)',
+        },
+        {
+          content: '지스트신문 디지털콘텐츠부 웹마스터 (2학년)',
         },
         {
           content: '전산동아리 Wing Application 분과장 (2학년)',
