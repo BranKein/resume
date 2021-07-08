@@ -19,7 +19,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: '010-4048-6712',
+      title: '웹에 공개된 이력서에는 전화번호를 기재하지 않습니다.',
       icon: faPhone,
       badge: true,
     },

@@ -3,6 +3,7 @@ import { Row, Col, Badge } from 'reactstrap';
 import { ISkill } from './ISkill';
 import { Style } from '../common/Style';
 import Util from '../common/Util';
+import CSS from 'csstype';
 
 export default function SkillRow({
   skill,
@@ -44,12 +45,16 @@ function createCalculatedSkillItems(items: ISkill.Item[]) {
   log('origin', items, items.length, splitPoint);
   log('list', list);
 
+  const ulStyles: CSS.Properties = {
+    listStyle: "none"
+  }
+
   return (
     <Row className="mt-2 mt-md-0">
       {list.map((skills, index) => {
         return (
           <Col md={4} xs={12} key={index.toString()}>
-            <ul>
+            <ul style={ulStyles}>
               {skills.map((skill, skillIndex) => {
                 return (
                   <li key={skillIndex.toString()}>

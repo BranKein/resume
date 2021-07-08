@@ -99,6 +99,9 @@ const etc: ISkill.Skill = {
       title: 'WordCloud',
     },
     {
+      title: 'NLTK',
+    },
+    {
       title: 'Unity(C#)',
     },
   ]
@@ -133,6 +136,10 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'Next.js',
+      level: 1,
+    },
+    {
+      title: 'Plotly.js',
       level: 1,
     },
     {
@@ -233,7 +240,7 @@ const design: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [language, backend, database, frontend, ai, etc, ide, design],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: 자신있게 개발 가능한 수준',
+  tooltip: '1: 한번쯤 써본 수준\n2: 취미 개발 수준\n3: 자신있게 개발 가능한 수준',
 };
 
 export default skill;

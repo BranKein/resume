@@ -12,18 +12,27 @@ const project: IProject.Payload = {
         { content: 'Autocrypt 트랙의 주제 Barrier-Free Mobility Service' },
         { content: '택시에 탑승하는 임산부 또는 안좋은 운전 습관에 의해 불편함을 느낄 수 ' +
             '있는 모든 탑승자를 교통약자라고 정의하고 이들을 위한 서비스를 개발' },
-        { content: '백엔드 포지션으로 참여하였지만 데모 프로그램을 개발할 때에는 프론트엔드로 참여하여 React.js로만 개발' },
+        { content: '백엔드 포지션으로 참여하였지만 React.js로만 데모 프로그램 개발' },
         { content: '도메인 구입하여 데모 프로그램을 서버에 nginx 사용하여 serving'},
         {
           content: 'Demo Link',
           postHref: 'https://www.junctionx-caffeine.com'
         },
         {
-          content: '프레젠테이션',
+          content: 'Presentation Link',
+          postHref: 'https://presentation.junctionx-caffenie.com'
         },
         {
           content: 'Github Link',
           postHref: 'https://github.com/JunctionX-Seoul-Caffeine/Calmmuter.git'
+        },
+        {
+          content: 'Figma Design Link',
+          postHref: 'https://design-figma.junctionx-caffenie.com'
+        },
+        {
+          content: 'Miro Ideation Link',
+          postHref: 'https://ideation-miro.junctionx-caffenie.com'
         },
       ],
       skillKeywords: ['Nginx', 'React.js', 'HTML', 'CSS'],
@@ -37,6 +46,18 @@ const project: IProject.Payload = {
         { content: '기존의 "당근마켓" 어플의 서비스 범위를 동 단위가 아니라 "아파트 단위"로 좁히고 거래 대상을 "신선식품과 배달식품"으로 하여 새로운 타겟을 설정하고 "주민들간의 좋은 관계 형성" 및 "음식물 쓰레기 배출량 감소"를 목표로 한 거래 플랫폼 개발' },
         { content: 'Flask를 사용하여 RESTful API 제작 후 Java의 OkHttp3를 사용하여 통신하도록 개발' },
         { content: 'Xd 디자인 툴을 사용하여 디자이너와 프로그래머와의 효율적인 업무를 진행' },
+        {
+          content: 'Xd Prototype Link',
+          postHref: 'https://www.oasis2021-3n.com'
+        },
+        {
+          content: 'Presentation Link',
+          postHref: 'https://presentation.oasis2021-3n.com'
+        },
+        {
+          content: 'Github Link',
+          postHref: 'https://github.com/Oasis-3N'
+        },
       ],
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Android Studio', 'OkHttp3'],
     },
