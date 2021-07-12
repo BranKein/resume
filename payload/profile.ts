@@ -24,7 +24,7 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'Github Profile',
+      title: 'Github',
       link: 'https://github.com/BranKein',
       icon: faGithub,
     },

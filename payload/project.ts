@@ -62,7 +62,7 @@ const project: IProject.Payload = {
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Android Studio', 'OkHttp3'],
     },
     {
-      title: 'GSA Infoteam GISTORY 커뮤니티 서비스',
+      title: 'GSA Infoteam GISTORY 커뮤니티',
       startedAt: '2020-07',
       where: 'GIST 학생자치회 GSA Infoteam 공동작업, Back-end 작업, 약간의 React 작업',
       descriptions: [
@@ -70,8 +70,9 @@ const project: IProject.Payload = {
         { content: '보통의 커뮤니티 기능인 게시물 작성, 수정, 삭제가 가능하도록 개발' },
         { content: '교내 학사일정을 크롤링하여 메인 화면에 띄우도록 api 제작' },
         { content: 'RBAC 권한체계를 사용하여 공지글 작성 권한 등을 관리 및 관리자 콘솔 페이지 작성'},
+        { content: 'flake8 라이브러리를 이용한 코드 스타일 통일 및 가독성 증가'}
       ],
-      skillKeywords: ['Python', 'Flask', 'MySQL', 'Nginx', 'React.js', 'Redux'],
+      skillKeywords: ['Python', 'Flask', 'flake8', 'MySQL', 'Nginx', 'React.js', 'Redux'],
     },
     {
       title: 'GIST AMS, PMS',
@@ -88,10 +89,22 @@ const project: IProject.Payload = {
       skillKeywords: ['Python', 'Flask', 'MySQL', 'Android Studio', 'OkHttp3', 'Javascript', 'React.js'],
     },
     {
+      title: 'Challengers Clone Coding',
+      startedAt: '2021-03',
+      where: '지인들과의 사이드 프로젝트, (진행중), Full-Stack',
+      descriptions: [
+        { content: '기존의 어플 "챌린저스"를 Flask, React.js, React Native를 사용하여 동일한 기능을 하도록 만들어보며 새로운 기술을 공부해보자는 취지로 시작' },
+        { content: 'AWS를 사용하여 서버를 구축, 백엔드와 프론트 엔드 개발을 모두 진행' },
+        { content: 'REST API 개발을 위한 API Documentation 제작' },
+        { content: 'OAuth2.0을 이용한 소셜 로그인 기능 구현'}
+      ],
+      skillKeywords: ['Python', 'Flask', 'MySQL', 'AWS', 'Nginx', 'React.js'],
+    },
+    {
       title: 'Github Contributes Plotting',
       startedAt: '2021-05',
       endedAt: '2021-05',
-      where: '간단한 1인 사이드 프로젝트, Full-Stack',
+      where: '혼자 간단한 사이드 프로젝트, Full-Stack',
       descriptions: [
         { content: 'Github Profile 페이지의 Contributes Graph를 잔디의 형태가 아니라 꺾은선 그래프로 보고 싶은 마음에 간단히 제작' },
         { content: 'Flask로 백엔드를 제작, Github 아이디를 입력하면 해당 프로필에 들어가 BeautifulSoup4를 사용하여 Contributes Graph를 크롤링해서 데이터를 가져오는 방식' },

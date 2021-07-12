@@ -17,7 +17,7 @@ const etc: IEtc.Payload = {
     {
       title: 'TOEIC 어학성적',
       subTitle: '815점',
-      startedAt: '2015-09',
+      startedAt: '2020-09',
     },
     {
       title: '문서실무사 1급 필기/실기',
